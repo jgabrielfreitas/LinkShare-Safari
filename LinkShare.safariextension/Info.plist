@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>JGabrielFreitas</string>
+	<key>Builder Version</key>
+	<string>12604.1.6</string>
+	<key>CFBundleDisplayName</key>
+	<string>LinkShare</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jgabrielfreitas.linkshare</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>5242880</integer>
+	</dict>
+	<key>Companion Bundle Identifier</key>
+	<array>
+		<string>JGabrielFreitas</string>
+	</array>
+	<key>Description</key>
+	<string>A extension to share web links between devices</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
