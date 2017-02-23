@@ -20,11 +20,36 @@
 	<dict>
 		<key>Database Quota</key>
 		<integer>5242880</integer>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>reload-page</string>
+				<key>Identifier</key>
+				<string>hello</string>
+				<key>Image</key>
+				<string>Link Filled-50.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Link Share</string>
+			</dict>
+		</array>
 	</dict>
 	<key>Companion Bundle Identifier</key>
 	<array>
 		<string>JGabrielFreitas</string>
 	</array>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>open_site.js</string>
+			</array>
+		</dict>
+	</dict>
 	<key>Description</key>
 	<string>A extension to share web links between devices</string>
 	<key>DeveloperIdentifier</key>
@@ -36,7 +61,7 @@
 		<key>Website Access</key>
 		<dict>
 			<key>Level</key>
-			<string>All</string>
+			<string>Some</string>
 		</dict>
 	</dict>
 </dict>
